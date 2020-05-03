@@ -1,0 +1,5 @@
+{
+    // Added by build system's vscode target
+    "cortex-debug.armToolchainPath": "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/bin",
+    "cortex-debug.openocdPath": "C:/Users/Sam/ModusToolbox/tools_2.1/openocd/bin/openocd"
+}

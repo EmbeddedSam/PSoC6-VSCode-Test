@@ -1,0 +1,104 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+	            ".", "./libs", "./libs/TARGET_CY8CPROTO-062-4343W", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource", "./libs/capsense", "./libs/core-lib", "./libs/core-lib/include", "./libs/psoc6hal", "./libs/psoc6hal/COMPONENT_PSOC6HAL", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/pin_packages", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/triggers", "./libs/psoc6hal/include", "./libs/psoc6pdl", "./libs/psoc6pdl/cmsis", "./libs/psoc6pdl/cmsis/include", "./libs/psoc6pdl/devices", "./libs/psoc6pdl/devices/include", "./libs/psoc6pdl/devices/include/ip", "./libs/psoc6pdl/drivers", "./libs/psoc6pdl/drivers/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/backward"
+            ],
+            "browse": {
+                "path": [
+	                ".", "./libs", "./libs/TARGET_CY8CPROTO-062-4343W", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource", "./libs/capsense", "./libs/core-lib", "./libs/core-lib/include", "./libs/psoc6hal", "./libs/psoc6hal/COMPONENT_PSOC6HAL", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/pin_packages", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/triggers", "./libs/psoc6hal/include", "./libs/psoc6pdl", "./libs/psoc6pdl/cmsis", "./libs/psoc6pdl/cmsis/include", "./libs/psoc6pdl/devices", "./libs/psoc6pdl/devices/include", "./libs/psoc6pdl/devices/include/ip", "./libs/psoc6pdl/drivers", "./libs/psoc6pdl/drivers/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/backward"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+	            "CY_USING_HAL", "CY_APPNAME_mtb_example_psoc6_empty_app", "CY8C624ABZI_D44", "CY_TARGET_DEVICE=CY8C624ABZI_D44", "TARGET_CY8CPROTO_062_4343W", "CY_TARGET_BOARD=CY8CPROTO_062_4343W", "COMPONENT_BSP_DESIGN_MODUS", "COMPONENT_CM0P_SLEEP", "COMPONENT_CM4", "COMPONENT_PSOC6HAL", "COMPONENT_SOFTFP", "DEBUG",
+		        "__GNUC__"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/bin/arm-none-eabi-gcc.exe  -c -mcpu=cortex-m4 -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        },
+        {
+            "name": "macOS",
+            "includePath": [
+	            ".", "./libs", "./libs/TARGET_CY8CPROTO-062-4343W", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource", "./libs/capsense", "./libs/core-lib", "./libs/core-lib/include", "./libs/psoc6hal", "./libs/psoc6hal/COMPONENT_PSOC6HAL", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/pin_packages", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/triggers", "./libs/psoc6hal/include", "./libs/psoc6pdl", "./libs/psoc6pdl/cmsis", "./libs/psoc6pdl/cmsis/include", "./libs/psoc6pdl/devices", "./libs/psoc6pdl/devices/include", "./libs/psoc6pdl/devices/include/ip", "./libs/psoc6pdl/drivers", "./libs/psoc6pdl/drivers/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/backward"
+            ],
+            "browse": {
+                "path": [
+	                ".", "./libs", "./libs/TARGET_CY8CPROTO-062-4343W", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource", "./libs/capsense", "./libs/core-lib", "./libs/core-lib/include", "./libs/psoc6hal", "./libs/psoc6hal/COMPONENT_PSOC6HAL", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/pin_packages", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/triggers", "./libs/psoc6hal/include", "./libs/psoc6pdl", "./libs/psoc6pdl/cmsis", "./libs/psoc6pdl/cmsis/include", "./libs/psoc6pdl/devices", "./libs/psoc6pdl/devices/include", "./libs/psoc6pdl/devices/include/ip", "./libs/psoc6pdl/drivers", "./libs/psoc6pdl/drivers/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/backward"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "CY_USING_HAL", "CY_APPNAME_mtb_example_psoc6_empty_app", "CY8C624ABZI_D44", "CY_TARGET_DEVICE=CY8C624ABZI_D44", "TARGET_CY8CPROTO_062_4343W", "CY_TARGET_BOARD=CY8CPROTO_062_4343W", "COMPONENT_BSP_DESIGN_MODUS", "COMPONENT_CM0P_SLEEP", "COMPONENT_CM4", "COMPONENT_PSOC6HAL", "COMPONENT_SOFTFP", "DEBUG",
+                "__GNUC__"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/bin/arm-none-eabi-gcc  -c -mcpu=cortex-m4 -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+	            ".", "./libs", "./libs/TARGET_CY8CPROTO-062-4343W", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource", "./libs/capsense", "./libs/core-lib", "./libs/core-lib/include", "./libs/psoc6hal", "./libs/psoc6hal/COMPONENT_PSOC6HAL", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/pin_packages", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/triggers", "./libs/psoc6hal/include", "./libs/psoc6pdl", "./libs/psoc6pdl/cmsis", "./libs/psoc6pdl/cmsis/include", "./libs/psoc6pdl/devices", "./libs/psoc6pdl/devices/include", "./libs/psoc6pdl/devices/include/ip", "./libs/psoc6pdl/drivers", "./libs/psoc6pdl/drivers/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard",
+                "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/backward"
+            ],
+            "browse": {
+                "path": [
+	                ".", "./libs", "./libs/TARGET_CY8CPROTO-062-4343W", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS", "./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource", "./libs/capsense", "./libs/core-lib", "./libs/core-lib/include", "./libs/psoc6hal", "./libs/psoc6hal/COMPONENT_PSOC6HAL", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/pin_packages", "./libs/psoc6hal/COMPONENT_PSOC6HAL/include/triggers", "./libs/psoc6hal/include", "./libs/psoc6pdl", "./libs/psoc6pdl/cmsis", "./libs/psoc6pdl/cmsis/include", "./libs/psoc6pdl/devices", "./libs/psoc6pdl/devices/include", "./libs/psoc6pdl/devices/include/ip", "./libs/psoc6pdl/drivers", "./libs/psoc6pdl/drivers/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard",
+                    "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/arm-none-eabi/include/c++/7.2.1/backward"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "CY_USING_HAL", "CY_APPNAME_mtb_example_psoc6_empty_app", "CY8C624ABZI_D44", "CY_TARGET_DEVICE=CY8C624ABZI_D44", "TARGET_CY8CPROTO_062_4343W", "CY_TARGET_BOARD=CY8CPROTO_062_4343W", "COMPONENT_BSP_DESIGN_MODUS", "COMPONENT_CM0P_SLEEP", "COMPONENT_CM4", "COMPONENT_PSOC6HAL", "COMPONENT_SOFTFP", "DEBUG",
+                "__GNUC__"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:/Users/Sam/ModusToolbox/tools_2.1/gcc-7.2.1/bin/arm-none-eabi-gcc  -c -mcpu=cortex-m4 -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        }            
+    ],
+    "version": 4
+}
